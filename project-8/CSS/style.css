@@ -1,0 +1,219 @@
+/* background image  */
+
+#headding img{
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 422px;
+}
+
+/* headding*/
+
+#headding nav ul li a{
+    text-decoration: none;
+    padding: 11px 11px;
+    margin: 11px 31px;
+    font-size: 22px;
+    color: white;
+}
+
+#headding nav ul li a:hover{
+color: rgb(125, 129, 124);
+border: 1px solid black;
+/* color: black;s */
+   /* text-decoration: underline; */
+    
+
+
+}
+
+#headding nav ul {
+    padding: 11px 11px;
+    margin: 9px 1px;
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+  
+    background-color: black;
+    
+}
+
+
+.head1 h2{
+    box-shadow: 4px 4px 2px 1px;
+    margin: 39px 12em;
+    font-size: 44px;
+    text-align: center;
+    justify-content: center;
+    border: 1.5px solid #f95353;
+    /* display: inline; */
+}
+
+
+/* 1st logo  */
+
+
+#headding .work1 a img {
+    width: 62%;
+    height: 56%;
+}
+ .work1, .work2, .work3{
+    margin: 22px 45px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 22px 7px;
+}
+
+
+#headding  .btn1 button{
+    padding: 9px 43px;
+    background-color: #9f0044;
+    border: 2px solid #9f0044;
+    cursor: pointer;
+    margin: 10px -11px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    /* box-shadow: 5px 15px 10px 13px; */
+}
+#headding  .btn1 button:hover{
+    color: #9f0044;
+    background-color: white;
+    border: 1px solid #9f0044;
+    box-shadow: 3px 7px 7px -3px black;
+}
+
+
+
+/* 2nd logo  */
+
+
+#headding .work2 a img {
+    width: 53%;
+    height: 56%;
+}
+
+#headding  .btn2 button{
+    padding: 9px 39px;
+    background-color: #4171ad;
+    cursor: pointer;
+    margin: 10px 8px;
+    border: 2px solid #4171ad;
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    /* box-shadow: 5px 15px 10px 13px; */
+}
+#headding  .btn2 button:hover{
+    color: #4171ad;
+    background-color: white;
+    border: 1px solid #4171ad;
+    box-shadow: 3px 7px 7px -3px black;
+}
+
+
+/* 3rd logo   */
+
+
+#headding .work3 a img {
+    width: 73%;
+    height: 56%;
+}
+
+#headding  .btn3 button{
+    padding: 9px 35px;
+    background-color: #188283;
+    margin: 10px -3px;
+    border: 2px solid #188283;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    /* box-shadow: 5px 15px 10px 13px; */
+}
+#headding  .btn3 button:hover{
+    color: #188283;
+    background-color: white;
+    border: 1px solid #188283;
+    box-shadow: 3px 7px 7px -3px black;
+}
+
+.work{
+    display: flex;
+    margin: 11px 27px;
+    padding: 11px 14px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+   
+}
+
+
+/* footer  */
+
+#foot footer{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: -8px -8px;
+    
+}
+
+#foot p{
+    padding: 11px 11px;
+    color: white;
+  
+}
+
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+
+@media screen and (max-width: 1247px) {
+    #headding nav ul{
+        flex-direction: column;
+     text-align: center;
+    }
+
+    .head1 h2  {
+        margin: 22px 22px;
+        text-align: center;
+    }
+
+    
+      
+        
+    
+
+}
+
+@media screen and (max-width: 556px) {
+    
+    .work {
+        flex-direction: column;
+     text-align: center;
+         /* flex-direction: column; */
+    /* text-align: center; */
+    /* display: grid;
+    grid-template-columns: 100%; */
+    }
+
+    /* #foot footer  {
+        border: 2px solid black;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        flex-direction: column;
+        font-size: 11px;
+    } */
+}
