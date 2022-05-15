@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+section .imgBx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+section .imgBx::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e91e63,#03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+
+section .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .contentBx{
+
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contentBx .formBx{
+    width: 50%;
+}
+
+
+section .contentBx .formBx h2{
+    color: #6c6d6f;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2278b3fc;
+    /* display: inline-block; */
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+}
+
+section .contentBx .formBx .inputBx span{
+    color: #6c6d6f;
+    font-weight: 600;
+    font-size: 16px;
+   
+    margin-bottom: 5px;
+    /* border-bottom: 4px solid #ca1591; */
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx input{
+    width: 100%;
+    padding: 10px 20px ;
+    outline: none;
+    font-weight: 600;
+    border: 1px solid #6c6d6f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #0f0f0f;
+    background: transparent;
+    border-radius: 30px;
+
+}
+
+section .contentBx .formBx .inputBx button[type="submit"]{
+
+    width: 100%;
+    margin-top: 32px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 600;
+    border: 1px solid #6c6d6f;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #0f0f0f;
+    background: transparent;
+    border-radius: 30px;
+
+
+
+    background: #2278b3fc;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+section .contentBx .formBx .inputBx button[type="submit"]:hover{
+    
+    background: #2996dffc;
+
+}
+
+section .contentBx .formBx .inputBx p{
+  
+    color: #333435;
+}
+
+section .contentBx .formBx .inputBx p a{
+    color:#2278b3fc ;
+    font-weight: 600;
+}
+
+
+section .contentBx .formBx .remember{
+
+    margin-bottom: 14px;
+    /* margin-top: 19px; */
+    color: #413e40;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+section .contentBx .formBx  h3{
+    color: #333435;
+    text-align: center;
+    margin: 80px 0 10px ;
+    font-weight: 600;
+}
+
+section .contentBx .formBx .sci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contentBx .formBx .sci li{
+    list-style: none;
+    width: 50px;
+    font-size: 26px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2278b3fc;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+    color: #fbfbfb;
+    transition: all 0.4s ease;
+
+
+}
+section .contentBx .formBx .sci li:hover{
+    background:white;
+    color: #2278b3fc;
+    border: 1px solid #2278b3fc;
+}
+
+section .contentBx .formBx .sci li i{
+    transform: scale(1);
+  
+}
+
+
+@media (max-width: 1000px){
+
+    section .imgBx{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    section .contentBx{
+
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    section .contentBx .formBx{
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 59%);
+        margin: 50px;
+    }
+
+
+    
+section .contentBx .formBx  h3{
+    color: #333435;
+    text-align: center;
+    margin: 30px 0 10px ;
+    font-weight: 600;
+}
+
+section .contentBx .formBx .inputBx span {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    /* border-bottom: 4px solid #ca1591; */
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx input {
+    width: 100%;
+    padding: 10px 20px;
+    /* outline: none; */
+    font-weight: 600;
+    border: 1px solid #000000;
+    font-size: 17px;
+    letter-spacing: 1px;
+    /* color: #0d0d0d; */
+    background: #ebf5f68a;
+    border-radius: 30px;
+}
+
+}
